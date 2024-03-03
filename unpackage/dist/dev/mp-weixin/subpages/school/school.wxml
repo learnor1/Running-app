@@ -1,0 +1,1 @@
+<view class="school_home"><van-search wx:if="{{r0}}" class="r" u-r="search" bindblur="{{b}}" u-t="m" u-i="528bd108-0" bind:__l="__l" u-p="{{c}}"></van-search><block wx:for="{{d}}" wx:for-item="i" wx:key="d"><view wx:if="{{i.a}}" class="school_item" bindtap="{{i.c}}">{{i.b}}</view></block></view>
